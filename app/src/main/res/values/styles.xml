@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="ListItemTextPrimary" parent="TextAppearance.MaterialComponents.Body1">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="ListItemTextSecondary" parent="TextAppearance.MaterialComponents.Body2">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">14sp</item>
+    </style>
+
+    <style name="SubtitlePrimary" parent="TextAppearance.MaterialComponents.Subtitle1">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">16sp</item>
+    </style>
+
+    <style name="SubtitlePrimaryLabel" parent="SubtitlePrimary">
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="SubtitleSecondary" parent="TextAppearance.MaterialComponents.Subtitle2">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:maxLines">2</item>
+        <item name="android:ellipsize">end</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="TitlePrimary" parent="TextAppearance.MaterialComponents.Headline4">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">34sp</item>
+    </style>
+
+    <style name="TitlePrimaryLabel" parent="TitlePrimary">
+        <item name="android:maxLines">3</item>
+    </style>
+
+    <style name="TitleSecondary" parent="TextAppearance.MaterialComponents.Headline5">
+        <item name="android:textColor">@color/secondaryTextColor</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Widget.Theme.DemoBooth.ActionBar.Fullscreen" parent="Widget.AppCompat.ActionBar">
+        <item name="android:background">@color/black_overlay</item>
+    </style>
+
+    <style name="ButtonOverlay" parent="Widget.AppCompat.ImageButton">
+        <item name="android:background">@drawable/image_rect_rounded_dark</item>
+        <item name="android:foreground">?attr/selectableItemBackground</item>
+        <item name="android:padding">10dp</item>
+    </style>
+
+    <style name="Widget.Theme.DemoBooth.ButtonBar.Fullscreen" parent="">
+        <item name="android:background">@color/black_overlay</item>
+        <item name="android:buttonBarStyle">?android:attr/buttonBarStyle</item>
+    </style>
+</resources>

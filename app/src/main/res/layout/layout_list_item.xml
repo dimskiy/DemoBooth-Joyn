@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:foreground="?attr/selectableItemBackground"
+    app:cardCornerRadius="@dimen/card_corner_radius">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingHorizontal="@dimen/screen_padding_horizontal"
+        android:paddingVertical="@dimen/screen_padding_top">
+
+        <ImageView
+            android:id="@+id/image_thumbnail"
+            android:layout_width="@dimen/image_thumbnail_size"
+            android:layout_height="@dimen/image_thumbnail_size"
+            android:contentDescription="@string/description_photo_preview"
+            android:scaleType="fitCenter"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/ic_24_no_image" />
+
+        <TextView
+            android:id="@+id/text_user_name"
+            style="@style/SubtitlePrimary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/screen_padding_horizontal"
+            android:includeFontPadding="false"
+            app:layout_constraintStart_toEndOf="@id/image_thumbnail"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:text="Username" />
+
+        <TextView
+            android:id="@+id/text_views_number"
+            style="@style/SubtitleSecondary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/screen_padding_horizontal"
+            android:layout_marginTop="@dimen/screen_padding_top"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:drawableStartCompat="@drawable/ic_eye_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/image_thumbnail"
+            app:layout_constraintTop_toBottomOf="@id/text_user_name"
+            tools:text="10" />
+
+        <TextView
+            android:id="@+id/text_downloads_number"
+            style="@style/SubtitleSecondary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/screen_padding_horizontal"
+            android:layout_marginTop="@dimen/screen_padding_top"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:drawableStartCompat="@drawable/ic_download_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/text_views_number"
+            app:layout_constraintTop_toBottomOf="@id/text_user_name"
+            tools:text="100" />
+
+        <TextView
+            android:id="@+id/text_likes_number"
+            style="@style/SubtitleSecondary"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/screen_padding_horizontal"
+            android:layout_marginTop="@dimen/screen_padding_top"
+            android:gravity="center"
+            android:includeFontPadding="false"
+            app:drawableStartCompat="@drawable/ic_like_24"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toEndOf="@id/text_downloads_number"
+            app:layout_constraintTop_toBottomOf="@id/text_user_name"
+            tools:text="23" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.cardview.widget.CardView>
+

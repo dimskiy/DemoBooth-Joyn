@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">DemoBooth</string>
+    <string name="description_photo_preview">Photo preview</string>
+    <string name="description_close_preview">Close preview</string>
+    <string name="error_image_not_found_title">Wrong image URL</string>
+    <string name="error_image_not_found_description">We can not find the image by the URL specified :(</string>
+    <string name="empty_text_placeholder">?</string>
+    <string name="message_query_too_short">Enter at least 3 letters</string>
+    <string name="message_can_not_load_result">Can not load result</string>
+    <string name="message_search_hint">Flowers</string>
+
+    <string name="pixabay_base_url" translatable="false">https://pixabay.com/api/</string>
+</resources>

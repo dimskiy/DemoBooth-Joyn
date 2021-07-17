@@ -1,0 +1,2 @@
+rootProject.name = "DemoBooth"
+include ':app'

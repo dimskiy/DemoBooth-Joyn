@@ -1,0 +1,8 @@
+<resources>
+    <dimen name="screen_padding_horizontal">20dp</dimen>
+    <dimen name="screen_padding_top">10dp</dimen>
+    <dimen name="screen_padding_bottom">10dp</dimen>
+    <dimen name="card_corner_radius">4dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="image_thumbnail_size">60dp</dimen>
+</resources>
